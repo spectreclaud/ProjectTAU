@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5e429f-9128-4884-ac69-925a324ba549" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HoversPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hover/HoverTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/KeyPressesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/keys/KeysTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
     </list>
@@ -52,28 +52,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Desktop/selenium-webdriver-java-course-c1" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HoverTests.testHoverUser1">
-    <configuration name="BaseTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.BaseTests" />
-      <module name="ProjektTAU" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.KeysTests.testPi">
     <configuration name="DropdownTests.testSelectOption" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjektTAU" />
       <extension name="coverage">
@@ -110,6 +97,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KeysTests.testBackspace" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjektTAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="keys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="keys" />
+      <option name="MAIN_CLASS_NAME" value="keys.KeysTests" />
+      <option name="METHOD_NAME" value="testBackspace" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeysTests.testPi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjektTAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="keys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="keys" />
+      <option name="MAIN_CLASS_NAME" value="keys.KeysTests" />
+      <option name="METHOD_NAME" value="testPi" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjektTAU" />
       <extension name="coverage">
@@ -127,31 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ProjektTAU" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="login" />
-      <option name="MAIN_CLASS_NAME" value="login.LoginTests" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.KeysTests.testPi" />
+        <item itemvalue="TestNG.KeysTests.testBackspace" />
         <item itemvalue="TestNG.HoverTests.testHoverUser1" />
         <item itemvalue="TestNG.DropdownTests.testSelectOption" />
         <item itemvalue="TestNG.LoginTests" />
-        <item itemvalue="TestNG.LoginTests.testSuccessfulLogin" />
-        <item itemvalue="Application.BaseTests" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610366594122</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="POM TAU Site https://the-internet.herokuapp.com/">
+      <created>1610376067424</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610376067424</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -194,54 +206,58 @@
     <option name="LAST_COMMIT_MESSAGE" value="POM TAU Site https://the-internet.herokuapp.com/" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="444" y="167" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1610320251499">
+    <state x="444" y="167" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1610376136512">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="444" y="167" key="#com.intellij.ide.util.TreeClassChooserDialog/62.0.1304.768@62.0.1304.768" timestamp="1610320251499" />
-    <state x="368" y="0" key="CommitChangelistDialog2" timestamp="1610366593646">
+    <state x="444" y="167" key="#com.intellij.ide.util.TreeClassChooserDialog/62.0.1304.768@62.0.1304.768" timestamp="1610376136512" />
+    <state x="368" y="0" key="CommitChangelistDialog2" timestamp="1610376067162">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="368" y="0" key="CommitChangelistDialog2/62.0.1304.768@62.0.1304.768" timestamp="1610366593646" />
+    <state x="368" y="0" key="CommitChangelistDialog2/62.0.1304.768@62.0.1304.768" timestamp="1610376067162" />
     <state x="494" y="138" key="FileChooserDialogImpl" timestamp="1610290805161">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="494" y="138" key="FileChooserDialogImpl/62.0.1304.768@62.0.1304.768" timestamp="1610290805161" />
-    <state width="1260" height="187" key="GridCell.Tab.0.bottom" timestamp="1610371643197">
+    <state width="1260" height="233" key="GridCell.Tab.0.bottom" timestamp="1610378655256">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1260" height="187" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1610371643197" />
-    <state width="1260" height="187" key="GridCell.Tab.0.center" timestamp="1610371643197">
+    <state width="1260" height="233" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1610378655256" />
+    <state width="1260" height="233" key="GridCell.Tab.0.center" timestamp="1610378655255">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1260" height="187" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1610371643197" />
-    <state width="1260" height="187" key="GridCell.Tab.0.left" timestamp="1610371643197">
+    <state width="1260" height="233" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1610378655255" />
+    <state width="1260" height="233" key="GridCell.Tab.0.left" timestamp="1610378655255">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1260" height="187" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1610371643197" />
-    <state width="1260" height="187" key="GridCell.Tab.0.right" timestamp="1610371643197">
+    <state width="1260" height="233" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1610378655255" />
+    <state width="1260" height="233" key="GridCell.Tab.0.right" timestamp="1610378655256">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1260" height="187" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1610371643197" />
-    <state width="1260" height="233" key="GridCell.Tab.1.bottom" timestamp="1610314553561">
+    <state width="1260" height="233" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1610378655256" />
+    <state width="1260" height="233" key="GridCell.Tab.1.bottom" timestamp="1610378661588">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1260" height="233" key="GridCell.Tab.1.bottom/62.0.1304.768@62.0.1304.768" timestamp="1610314553561" />
-    <state width="1260" height="233" key="GridCell.Tab.1.center" timestamp="1610314553561">
+    <state width="1260" height="233" key="GridCell.Tab.1.bottom/62.0.1304.768@62.0.1304.768" timestamp="1610378661588" />
+    <state width="1260" height="233" key="GridCell.Tab.1.center" timestamp="1610378661588">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1260" height="233" key="GridCell.Tab.1.center/62.0.1304.768@62.0.1304.768" timestamp="1610314553561" />
-    <state width="1260" height="233" key="GridCell.Tab.1.left" timestamp="1610314553560">
+    <state width="1260" height="233" key="GridCell.Tab.1.center/62.0.1304.768@62.0.1304.768" timestamp="1610378661588" />
+    <state width="1260" height="233" key="GridCell.Tab.1.left" timestamp="1610378661588">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1260" height="233" key="GridCell.Tab.1.left/62.0.1304.768@62.0.1304.768" timestamp="1610314553560" />
-    <state width="1260" height="233" key="GridCell.Tab.1.right" timestamp="1610314553561">
+    <state width="1260" height="233" key="GridCell.Tab.1.left/62.0.1304.768@62.0.1304.768" timestamp="1610378661588" />
+    <state width="1260" height="233" key="GridCell.Tab.1.right" timestamp="1610378661588">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1260" height="233" key="GridCell.Tab.1.right/62.0.1304.768@62.0.1304.768" timestamp="1610314553561" />
-    <state x="194" y="0" key="SettingsEditor" timestamp="1610320259518">
+    <state width="1260" height="233" key="GridCell.Tab.1.right/62.0.1304.768@62.0.1304.768" timestamp="1610378661588" />
+    <state x="194" y="0" key="SettingsEditor" timestamp="1610376139317">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="194" y="0" key="SettingsEditor/62.0.1304.768@62.0.1304.768" timestamp="1610320259518" />
+    <state x="194" y="0" key="SettingsEditor/62.0.1304.768@62.0.1304.768" timestamp="1610376139317" />
+    <state x="306" y="104" key="Vcs.Push.Dialog.v2" timestamp="1610376075136">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="306" y="104" key="Vcs.Push.Dialog.v2/62.0.1304.768@62.0.1304.768" timestamp="1610376075136" />
     <state x="409" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1610290233502">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
