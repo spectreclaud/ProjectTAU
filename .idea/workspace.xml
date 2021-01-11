@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5e429f-9128-4884-ac69-925a324ba549" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/KeyPressesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/keys/KeysTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HorizontalSliderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/slider/SliderTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
@@ -60,7 +60,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.KeysTests.testPi">
+  <component name="RunManager" selected="TestNG.SliderTests.testSlideToWholeNumber">
     <configuration name="DropdownTests.testSelectOption" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjektTAU" />
       <extension name="coverage">
@@ -133,17 +133,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SliderTests.testSlideToWholeNumber" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjektTAU" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="login.*" />
+          <option name="PATTERN" value="slider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="login" />
-      <option name="MAIN_CLASS_NAME" value="login.LoginTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="slider" />
+      <option name="MAIN_CLASS_NAME" value="slider.SliderTests" />
+      <option name="METHOD_NAME" value="testSlideToWholeNumber" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SliderTests.testSlideToWholeNumber" />
         <item itemvalue="TestNG.KeysTests.testPi" />
         <item itemvalue="TestNG.KeysTests.testBackspace" />
         <item itemvalue="TestNG.HoverTests.testHoverUser1" />
         <item itemvalue="TestNG.DropdownTests.testSelectOption" />
-        <item itemvalue="TestNG.LoginTests" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610376067424</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="POM TAU Site https://the-internet.herokuapp.com/">
+      <created>1610380442656</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610380442656</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -210,54 +218,54 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="444" y="167" key="#com.intellij.ide.util.TreeClassChooserDialog/62.0.1304.768@62.0.1304.768" timestamp="1610376136512" />
-    <state x="368" y="0" key="CommitChangelistDialog2" timestamp="1610376067162">
+    <state x="368" y="0" key="CommitChangelistDialog2" timestamp="1610380442383">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="368" y="0" key="CommitChangelistDialog2/62.0.1304.768@62.0.1304.768" timestamp="1610376067162" />
+    <state x="368" y="0" key="CommitChangelistDialog2/62.0.1304.768@62.0.1304.768" timestamp="1610380442383" />
     <state x="494" y="138" key="FileChooserDialogImpl" timestamp="1610290805161">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="494" y="138" key="FileChooserDialogImpl/62.0.1304.768@62.0.1304.768" timestamp="1610290805161" />
-    <state width="1260" height="233" key="GridCell.Tab.0.bottom" timestamp="1610378655256">
+    <state width="1260" height="187" key="GridCell.Tab.0.bottom" timestamp="1610381702221">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1260" height="233" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1610378655256" />
-    <state width="1260" height="233" key="GridCell.Tab.0.center" timestamp="1610378655255">
+    <state width="1260" height="187" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1610381702221" />
+    <state width="1260" height="187" key="GridCell.Tab.0.center" timestamp="1610381702221">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1260" height="233" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1610378655255" />
-    <state width="1260" height="233" key="GridCell.Tab.0.left" timestamp="1610378655255">
+    <state width="1260" height="187" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1610381702221" />
+    <state width="1260" height="187" key="GridCell.Tab.0.left" timestamp="1610381702221">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1260" height="233" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1610378655255" />
-    <state width="1260" height="233" key="GridCell.Tab.0.right" timestamp="1610378655256">
+    <state width="1260" height="187" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1610381702221" />
+    <state width="1260" height="187" key="GridCell.Tab.0.right" timestamp="1610381702221">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1260" height="233" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1610378655256" />
-    <state width="1260" height="233" key="GridCell.Tab.1.bottom" timestamp="1610378661588">
+    <state width="1260" height="187" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1610381702221" />
+    <state width="1260" height="233" key="GridCell.Tab.1.bottom" timestamp="1610380687140">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1260" height="233" key="GridCell.Tab.1.bottom/62.0.1304.768@62.0.1304.768" timestamp="1610378661588" />
-    <state width="1260" height="233" key="GridCell.Tab.1.center" timestamp="1610378661588">
+    <state width="1260" height="233" key="GridCell.Tab.1.bottom/62.0.1304.768@62.0.1304.768" timestamp="1610380687140" />
+    <state width="1260" height="233" key="GridCell.Tab.1.center" timestamp="1610380687140">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1260" height="233" key="GridCell.Tab.1.center/62.0.1304.768@62.0.1304.768" timestamp="1610378661588" />
-    <state width="1260" height="233" key="GridCell.Tab.1.left" timestamp="1610378661588">
+    <state width="1260" height="233" key="GridCell.Tab.1.center/62.0.1304.768@62.0.1304.768" timestamp="1610380687140" />
+    <state width="1260" height="233" key="GridCell.Tab.1.left" timestamp="1610380687140">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1260" height="233" key="GridCell.Tab.1.left/62.0.1304.768@62.0.1304.768" timestamp="1610378661588" />
-    <state width="1260" height="233" key="GridCell.Tab.1.right" timestamp="1610378661588">
+    <state width="1260" height="233" key="GridCell.Tab.1.left/62.0.1304.768@62.0.1304.768" timestamp="1610380687140" />
+    <state width="1260" height="233" key="GridCell.Tab.1.right" timestamp="1610380687140">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1260" height="233" key="GridCell.Tab.1.right/62.0.1304.768@62.0.1304.768" timestamp="1610378661588" />
+    <state width="1260" height="233" key="GridCell.Tab.1.right/62.0.1304.768@62.0.1304.768" timestamp="1610380687140" />
     <state x="194" y="0" key="SettingsEditor" timestamp="1610376139317">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="194" y="0" key="SettingsEditor/62.0.1304.768@62.0.1304.768" timestamp="1610376139317" />
-    <state x="306" y="104" key="Vcs.Push.Dialog.v2" timestamp="1610376075136">
+    <state x="306" y="104" key="Vcs.Push.Dialog.v2" timestamp="1610380451197">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="306" y="104" key="Vcs.Push.Dialog.v2/62.0.1304.768@62.0.1304.768" timestamp="1610376075136" />
+    <state x="306" y="104" key="Vcs.Push.Dialog.v2/62.0.1304.768@62.0.1304.768" timestamp="1610380451197" />
     <state x="409" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1610290233502">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
