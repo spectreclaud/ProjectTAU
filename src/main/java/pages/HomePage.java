@@ -50,6 +50,11 @@ public class HomePage {
         return new ContextMenuPage(driver);
     }
 
+    public FramesPage clickFramesPage(){
+        clickLink("Nested Frames");
+        return new FramesPage(driver);
+    }
+
     public WysiwyEditorPage clickWYSIWYGEditor(){
         clickLink("WYSIWYG Editor");
         return new WysiwyEditorPage(driver);
